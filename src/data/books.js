@@ -8,6 +8,7 @@ export const books = [
       name: "Sumit Saha",
     },
     price: 70,
+    isFavorate: false,
   },
   {
     _id: 2,
@@ -17,15 +18,17 @@ export const books = [
       name: "Rasel Ahmmed",
     },
     price: 62,
+    isFavorate: false,
   },
   {
-    _id: 2,
+    _id: 3,
     title: "Node Js and Express Js",
     image: img,
     author: {
       name: "Anisul Islam",
     },
     price: 80,
+    isFavorate: false,
   },
   {
     _id: 4,
@@ -35,6 +38,7 @@ export const books = [
       name: "Jhankar Mahmud",
     },
     price: 75,
+    isFavorate: false,
   },
   {
     _id: 5,
@@ -44,6 +48,7 @@ export const books = [
       name: "Hasin Hydar",
     },
     price: 72,
+    isFavorate: false,
   },
   {
     _id: 6,
@@ -53,6 +58,7 @@ export const books = [
       name: "Sumit Shaha",
     },
     price: 78,
+    isFavorate: false,
   },
   {
     _id: 7,
@@ -62,6 +68,7 @@ export const books = [
       name: "Jhankar Mahmud",
     },
     price: 76,
+    isFavorate: false,
   },
   {
     _id: 8,
@@ -71,5 +78,6 @@ export const books = [
       name: "Hasin Hyder",
     },
     price: 80,
+    isFavorate: false,
   },
 ];
