@@ -1,21 +1,19 @@
-import React from "react";
 import star from "../../assets/star.svg";
-import image from "../../assets/book.png";
 
-function Product() {
+function Product({ book }) {
   return (
     <div className="space-y-3">
       <div className="flex items-center justify-center rounded-md border border-[#324251]/30 bg-white p-4">
-        <img className="max-w-[144px]" src={image} alt="book name" />
+        <img className="max-w-[144px]" src={book?.image} alt="book name" />
       </div>
 
       <div className="space-y-3">
-        <h4 className="text-lg font-bold lg:text-xl">JavaScript and Jquery</h4>
+        <h4 className="text-lg font-bold lg:text-xl">{book.title}</h4>
         <p className="text-xs lg:text-sm">
-          By : <span>Jon Duckett</span>
+          By : <span>{book.author.name}</span>
         </p>
         <div className="flex items-center justify-between">
-          <h4 className="text-lg font-bold lg:text-xl">$62</h4>
+          <h4 className="text-lg font-bold lg:text-xl">${book.price}</h4>
           <div className="flex items-center space-x-1">
             <img src={star} />
             <img src={star} />

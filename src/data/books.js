@@ -1,8 +1,9 @@
+import img from "../assets/book.png";
 export const books = [
   {
     _id: 1,
     title: "Javascript Jquery",
-    image: "../assets/book.png",
+    image: img,
     author: {
       name: "Sumit Saha",
     },
@@ -11,7 +12,7 @@ export const books = [
   {
     _id: 2,
     title: "Dano Js and Electron Js",
-    image: "../assets/book.png",
+    image: img,
     author: {
       name: "Rasel Ahmmed",
     },
@@ -20,7 +21,7 @@ export const books = [
   {
     _id: 2,
     title: "Node Js and Express Js",
-    image: "../assets/book.png",
+    image: img,
     author: {
       name: "Anisul Islam",
     },
@@ -29,7 +30,7 @@ export const books = [
   {
     _id: 4,
     title: "Next and Nust Frontend Framwork",
-    image: "../assets/book.png",
+    image: img,
     author: {
       name: "Jhankar Mahmud",
     },
@@ -38,7 +39,7 @@ export const books = [
   {
     _id: 5,
     title: "Vue Js and Javascript",
-    image: "../assets/book.png",
+    image: img,
     author: {
       name: "Hasin Hydar",
     },
@@ -47,7 +48,7 @@ export const books = [
   {
     _id: 6,
     title: "React js Javascript",
-    image: "../assets/book.png",
+    image: img,
     author: {
       name: "Sumit Shaha",
     },
@@ -56,7 +57,7 @@ export const books = [
   {
     _id: 7,
     title: "Python Django",
-    image: "../assets/book.png",
+    image: img,
     author: {
       name: "Jhankar Mahmud",
     },
@@ -65,7 +66,7 @@ export const books = [
   {
     _id: 8,
     title: "Php And Laravel",
-    image: "../assets/book.png",
+    image: img,
     author: {
       name: "Hasin Hyder",
     },
