@@ -9,6 +9,7 @@ export const books = [
     },
     price: 70,
     isFavorate: false,
+    published: 2020,
   },
   {
     _id: 2,
@@ -19,6 +20,7 @@ export const books = [
     },
     price: 62,
     isFavorate: false,
+    published: 2022,
   },
   {
     _id: 3,
@@ -29,6 +31,7 @@ export const books = [
     },
     price: 80,
     isFavorate: false,
+    published: 2021,
   },
   {
     _id: 4,
@@ -39,6 +42,7 @@ export const books = [
     },
     price: 75,
     isFavorate: false,
+    published: 2023,
   },
   {
     _id: 5,
@@ -49,6 +53,7 @@ export const books = [
     },
     price: 72,
     isFavorate: false,
+    published: 2019,
   },
   {
     _id: 6,
@@ -59,6 +64,7 @@ export const books = [
     },
     price: 78,
     isFavorate: false,
+    published: 2024,
   },
   {
     _id: 7,
@@ -69,6 +75,7 @@ export const books = [
     },
     price: 76,
     isFavorate: false,
+    published: 2018,
   },
   {
     _id: 8,
@@ -79,5 +86,6 @@ export const books = [
     },
     price: 80,
     isFavorate: false,
+    published: 2017,
   },
 ];
